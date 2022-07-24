@@ -72,6 +72,7 @@ const MainView = ({
         fbq('track', 'PageView');`,
         }}
       />
+      <meta name="facebook-domain-verification" content="6jno1l40cm6un7wx8airmr0m1ig2tv" />
       <noscript>
         <img
           height="1"
