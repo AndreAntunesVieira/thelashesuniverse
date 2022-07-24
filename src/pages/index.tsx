@@ -33,7 +33,7 @@ export default function Home() {
 }
 
 const Header = styled.div`
-  text-shadow: 2px 2px 0 white;
+  color: white;
 `;
 
 const Main = styled.div`
