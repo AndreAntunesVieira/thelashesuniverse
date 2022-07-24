@@ -6,10 +6,10 @@ on:
 
 env:
   RUN_NUMBER: ${{ github.run_number }}
-  AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET }}
-  AWS_SECRET_KEY_ID: ${{ secrets.AWS_AGENCIA_KEY }}
-  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_AGENCIA_SECRET }}
-  AWS_REGION: ${{ secrets.AWS_AGENCIA_REGION }}
+  AWS_S3_BUCKET: inteligente.marketing
+  AWS_SECRET_KEY_ID: ${{ secrets.AWS_AGENCIA_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_AGENCIA_SECRET_ACCESS_KEY }}
+  AWS_REGION: us-east-1
 
 jobs:
   deploy:
