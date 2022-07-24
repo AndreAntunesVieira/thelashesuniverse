@@ -34,10 +34,6 @@ export default function Home() {
 
 const Header = styled.div`
   text-shadow: 2px 2px 0 white;
-  @media (min-width: 768px) {
-    color: white;
-    text-shadow: 2px 2px 0 black;
-  }
 `;
 
 const Main = styled.div`
@@ -94,7 +90,4 @@ const Section = styled.main`
   background-image: url("/background.png");
   min-height: 100vh;
   background-size: cover;
-  @media (min-width: 768px) {
-    background-image: url("/background.png");
-  }
 `;
