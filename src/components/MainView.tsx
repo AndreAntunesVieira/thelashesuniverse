@@ -4,7 +4,7 @@ const MainView = ({
   title,
   description,
   canonical,
-  image = '',
+  image = "",
   imageWidth = "1200",
   imageHeight = "600",
   imageAlt = null,
