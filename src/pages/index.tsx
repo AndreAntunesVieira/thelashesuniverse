@@ -19,12 +19,15 @@ export default function Home() {
             <a href="https://www.instagram.com/thelashesuniverse">
               <h2>Instagram</h2>
             </a>
-            <a href="https://www.youtube.com/channel/UCiKMs1PYH2D4OurZb8lPBog">
-              <h2>Youtube</h2>
+            <a href="https://forms.gle/gX9r3hCFs8ihi8fR7">
+              <h2>Quero ser palestrante</h2>
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100083901067524">
-              <h2>Facebook</h2>
-            </a>
+            {/*<a href="https://www.youtube.com/channel/UCiKMs1PYH2D4OurZb8lPBog">*/}
+            {/*  <h2>Youtube</h2>*/}
+            {/*</a>*/}
+            {/*<a href="https://www.facebook.com/profile.php?id=100083901067524">*/}
+            {/*  <h2>Facebook</h2>*/}
+            {/*</a>*/}
           </div>
         </Main>
       </Section>
