@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import MainView from "../components/MainView";
 
 export default function Home() {
@@ -30,6 +30,7 @@ export default function Home() {
             {/*</a>*/}
           </div>
         </Main>
+        <img src="/letreiro.png" id="letreiro" />
       </Section>
     </MainView>
   );
@@ -84,13 +85,29 @@ const Main = styled.div`
   }
 `;
 
+const slide = keyframes`
+  from {
+    transform: translateY(200px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+`;
+
 const Section = styled.main`
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/background.png");
+  background-image: url("/background.jpeg");
   min-height: 100vh;
   background-size: cover;
+  
+  #letreiro {
+    margin: 20px;
+    max-width: calc(100% - 40px);
+    animation: ${slide} 600ms linear 1;
+  }
 `;
