@@ -31,6 +31,8 @@ const MainView = ({
       <meta property="og:image:height" content={imageHeight} />
       <meta property="og:image:alt" content={imageAlt} />
 
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
       <meta property="og:site_name" content="The Lashes Universe" />
       <link rel="icon" href="/favicon.ico" />
       <meta name="robots" content="index, archive" />
