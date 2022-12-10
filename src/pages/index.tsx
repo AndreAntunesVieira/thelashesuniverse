@@ -12,7 +12,8 @@ export default function Home() {
     >
       <Section>
         <Header>
-          <h1>The Lashes Universe</h1>
+          <h1>
+            <img src="/letreiro.png" id="letreiro" alt="The Lashes Universe" title="The Lashes Universe" /></h1>
         </Header>
         <Main>
           <div>
@@ -30,7 +31,6 @@ export default function Home() {
             {/*</a>*/}
           </div>
         </Main>
-        <img src="/letreiro.png" id="letreiro" />
       </Section>
     </MainView>
   );
@@ -87,7 +87,7 @@ const Main = styled.div`
 
 const slide = keyframes`
   from {
-    transform: translateY(200px);
+    transform: translateY(-200px);
   }
 
   to {
@@ -106,7 +106,7 @@ const Section = styled.main`
   background-size: cover;
   
   #letreiro {
-    margin: 20px;
+    margin: 0 20px;
     max-width: calc(100% - 40px);
     animation: ${slide} 600ms linear 1;
   }
